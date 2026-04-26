@@ -37,35 +37,18 @@ Project structure
 `- script.js         # App logic (topics, examples, memory simulator, compiler embed)
 ``
 
-How to run (Installation)
+How to access the demo (Live)
 
-No build step is required — C-Tutor Pro runs in any modern browser.
+The app is deployed to Vercel and available at the live demo:
 
-1. Clone the repository:
+https://c-programming-tutor.vercel.app/
 
-```bash
-git clone https://github.com/adityafilesx/C-Programming-Tutor.git
-cd C-Programming-Tutor
-```
-
-2. Open the app:
+No local setup is required — visit the live URL in a modern browser to try the app. If you prefer to run locally (for development or to avoid iframe restrictions), you can still serve the files with a static server (optional):
 
 ```bash
-# macOS / Linux
-open index.html
-
-# Windows (PowerShell)
-start index.html
-```
-
-3. Use the sidebar to navigate topics, open the memory simulator, or launch the embedded compiler.
-
-Optional: Serve locally with a simple static server (recommended if your browser blocks local iframe embeds):
-
-```bash
-# Python 3
+# Python 3 (optional local server for development)
 python3 -m http.server 8000
-# then open http://localhost:8000 in your browser
+# then open the served site in your browser (replace with your preferred tool)
 ```
 
 Features (expanded)
